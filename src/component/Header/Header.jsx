@@ -10,17 +10,14 @@ export default function Header() {
                         <img src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png" className="mr-3 h-12" alt="Logo"/>
                     </Link>
                     <div className="flex items-center lg:order-2">
+                       
                         <Link
                             to="#"
                             className="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                         >
-                            Log in
-                        </Link>
-                        <Link
-                            to="#"
-                            className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
-                        >
-                            Get started
+                            <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
                         </Link>
                     </div>
                     <div
@@ -31,7 +28,7 @@ export default function Header() {
                             <li>
                                 <NavLink to='/'
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 ${isActive ? 'text-orange-600':'text-green-400'} duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 ${isActive ? 'text-orange-600':'text-black-400'} duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     Home
@@ -40,7 +37,7 @@ export default function Header() {
                             <li>
                                 <NavLink to='about'
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 ${isActive ? 'text-orange-600':'text-green-400'} duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 ${isActive ? 'text-orange-600':'text-black-400'} duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     About
@@ -49,7 +46,7 @@ export default function Header() {
                             <li>
                                 <NavLink to='contact'
                                     className={({isActive}) =>
-                                        `block py-2 pr-4 pl-3 ${isActive ? 'text-orange-600':'text-green-400'} duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        `block py-2 pr-4 pl-3 ${isActive ? 'text-orange-600':'text-black-400'} duration-200 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
                                     }
                                 >
                                     Contact

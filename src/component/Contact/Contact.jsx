@@ -36,7 +36,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Acme Inc, Street, State, Postal Code
+                                    <cite>India</cite>, Satna, Madhya Pradesh, 485551
                                 </div>
                             </div>
 
@@ -58,7 +58,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +44 1234567890
+                                    <b>+91</b> <i>9522574231</i>
                                 </div>
                             </div>
 
@@ -80,7 +80,9 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@acme.org
+                                    <strong>
+                                        rishabhtripathi0910@gmail.com
+                                    </strong>
                                 </div>
                             </div>
                         </div>
